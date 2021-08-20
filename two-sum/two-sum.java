@@ -10,6 +10,7 @@ class Solution {
 			if(hmap.containsKey(target - nums[i])){
 				twoNums[0] = hmap.get(target - nums[i]);
 				twoNums[1] = i;
+                break;
 			}
             else{
 				hmap.put(nums[i] , i);
